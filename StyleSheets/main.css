@@ -34,8 +34,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid #ede5d5;
-  background-color: #fff;
+  border-bottom: 1px solid var(--teal-blue);
+  background-color: var(--maximum-yellow-red);
   z-index: 1;
 }
 
@@ -194,6 +194,7 @@ main {
   overflow: auto;
   height: 100%;
   padding: 0;
+  min-height: 1000px;
 }
 
 .main{
@@ -242,6 +243,7 @@ main {
   border-top: 1px solid #ede5d5;
   background-color: #fff;
   padding-top: 20px;
+  margin-top: 25px;
 }
 
 .flex {
@@ -314,6 +316,10 @@ ul li {
   width: 30% !important;
 }
 
+.w50 {
+  width: 50% !important;
+}
+
 .w70 {
   width: 70% !important;
 }
@@ -327,6 +333,7 @@ ul li {
   font-size: 20px;
   padding: 10px;
   cursor: pointer;
+  display: block;
 }
 
 .button:hover {
@@ -371,4 +378,44 @@ ul li {
 .copyright {
   font-size: 12px;
   color: #4d3928;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form-field {
+  border: 1px solid #a79898;
+  border-radius: 5px;
+  outline: 0;
+  width: 90%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+select.contact-form-field {
+  color: #696969;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.menu-svg-icon {
+  position: absolute;
+  right: 60px;
+  top: 37%;
+  transform: translateY(-50%);
+  fill: #696969;
+}
+
+.menu-svg-icon svg {
+  width: 1em;
+  height: 1em;
+  font-size: 1em;
+}
+
+.contact-form-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }

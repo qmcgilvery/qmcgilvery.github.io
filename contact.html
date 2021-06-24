@@ -38,13 +38,48 @@
           </div>
         </div>
       </div>
-      <div class="main"><h1 class="title">WebWorld</h1>
-        <div class="messages">
-          <div class="message message-1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus id sagittis congue, arcu risus placerat erat, vitae maximus nisi justo sagittis mi. Donec velit urna, hendrerit eu sapien sit amet, pretium maximus dolor. Suspendisse efficitur nisi justo, a ultricies neque consequat in. Quisque elementum ultrices nisl eget commodo. Cras eleifend massa ut nibh fermentum, sed malesuada elit convallis. Nulla lectus justo, ultrices sit amet dui quis, dignissim fringilla velit. Duis vel vehicula lacus. Ut convallis purus non aliquet ultricies.</p></div>
-          <div class="message message-2"><p>Nulla a turpis vel metus mattis fermentum. Aenean at enim id turpis efficitur lacinia in at leo. Fusce tristique tincidunt justo, vel iaculis lorem cursus nec. Fusce elementum aliquet libero at interdum. In iaculis gravida nisl, non finibus dolor consequat nec. Nunc efficitur volutpat justo vel consectetur. Nunc euismod nisi justo, id blandit mauris imperdiet ac. Sed at sapien eget dolor lacinia luctus at ac nisl. Donec tincidunt, sem vitae pretium tempus, ante velit convallis augue, sed varius lorem est at nisi. Nam laoreet varius dui sit amet hendrerit.</p></div>
-          <div class="message message-3"><p>Ut eu commodo nunc. Nullam tincidunt pulvinar lorem ac convallis. Proin libero massa, luctus sed malesuada at, eleifend nec lacus. Nulla facilisi. Nulla facilisi. Proin a magna odio. Integer ac augue venenatis, porttitor elit eget, porttitor magna. Nunc ut eros nulla. Mauris ut pharetra magna. Sed ultricies luctus nisl vel lobortis. Pellentesque vel orci laoreet, pharetra nisi in, finibus massa. Cras convallis, tortor sollicitudin aliquam vulputate, est mi tincidunt lorem, nec sodales purus turpis et mauris.</p></div>
+      <div class="flex-container">
+        <div class="w50">
+          <div>
+            <h1>
+              Get in touch
+            </h1>
+          </div>
+          <div>
+            <p>
+              Please fill out the quick form and we will be in touch as soon as possible.
+            </p>
+          </div>
+          <div class="contact-form">
+            <form method="POST" target="dummyframe">
+              <input type="text" required placeholder="Name" name="name" class="contact-form-field">
+              <input type="email" required placeholder="Your email address" name="email" class="contact-form-field">
+
+              <span class="contact-form-select">
+                <div class="menu-svg-icon"><svg viewBox="0 0 320 512" width="320" height="512"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg></div>
+                <select name="purpose" class="contact-form-field" required>
+                  <option value="" selected> Select a reason for contact </option>
+                  <option value="0"> Safety </option>
+                  <option value="1"> Tickets </option>
+                  <option value="2"> Refunds </option>
+                  <option value="3"> Bookings </option>
+                </select>
+              </span>
+              <textarea required placeholder="Message" id="comments" class="contact-form-field" name="comments"></textarea>       
+              <button name="submit" type="submit" class="button">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="main-content">Main Content</div>
+        <div class="w50">
+          <div>
+            <h1>
+              Location
+            </h1>
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5187966912963!2d2.78140431645024!3d48.86738577928843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland%20Paris!5e0!3m2!1sen!2sie!4v1624534751985!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
       </div>
     </main>
 
