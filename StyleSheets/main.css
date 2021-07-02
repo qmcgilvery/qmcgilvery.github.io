@@ -430,3 +430,140 @@ select.contact-form-field {
   display: inline-block;
   width: 100%;
 }
+
+
+/*MANAGE-BOOKING.HTML*/
+/*FORM SECTION*/
+form {
+    clear: both;
+}
+
+.manage-booking {
+    width: 100%;
+    /* background: #1d3f72; */
+}
+
+.manage-booking-inside {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.manage-booking-form h2 {
+    padding: 100px 0 44px 0;
+}
+
+.manage-booking-form {
+    width: 560px;
+    float: left;
+}
+
+.manage-booking-left {
+    /*    width: 570px;*/
+    clear: both;
+
+}
+
+.short-input-first-name input {
+    width: 275px;
+    height: 48px;
+    float: left;
+    margin: 6px 0px 5px 0px;
+}
+
+.short-input-last-name input {
+    width: 275px;
+    height: 48px;
+    margin: -12px  0px 5px 10px;
+    /* margin: -15px 0px 5px 10px; */
+}
+
+.manage-booking input {
+    border: 2px solid #fff;
+    background: #1d3f72;
+    border-radius: 4px;
+    color: white;
+}
+
+::placeholder {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+.long-input {
+    clear: both;
+}
+
+.long-input input {
+    width: 560px;
+    height: 48px;
+    margin: 5px 0 5px 0;
+    color: white;
+}
+
+.manage-booking-order-summary {
+    width: 560px;
+    float: left;
+    margin: 0 10px;
+    /* border: 2px solid #fff; */
+    margin-top: 178px;
+    border-radius: 4px;
+    height: 288px;
+}
+
+.manage-booking-order-summary .button {
+    background: #FFF;
+    color: #1d3f72;
+    clear: both;
+    position: relative;
+    top: 25px;
+    display: grid;
+    margin: auto;
+}
+
+#manage-booking-order-summary-line {
+    clear: both;
+    position: relative;
+    width: 371px;
+    display: grid;
+    /* left: 95px; */
+    top: -50px;
+}
+
+.manage-booking-order-summary h2 {
+    padding: 35px 0 38px 98px;
+}
+
+.manage-booking-order-summary-left {
+    padding-left: 98px;
+    width: 280px;
+    float: left;
+}
+
+.manage-booking-order-summary-right {
+    float: inherit;
+    width: 180px;
+    position: relative;
+    text-align: right;
+}
+
+
+.manage-booking-payment-information {
+    clear: both;
+    padding-bottom: 86px;
+
+}
+
+.manage-booking-payment-information h2{
+    padding: 94px 0 40px 0;
+}
+.manage-booking-payment-information input{
+    width: 560px;
+    height: 48px;
+    margin: 5px 0 5px 0;
+}
+
+/* .checkout-button {
+  float:right;
+} */
